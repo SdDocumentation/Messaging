@@ -1,0 +1,212 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>me/newsfeedItems </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="me/newsfeedItems ">
+    <meta name="generator" content="docfx 2.58.4.0">
+    
+    <link rel="shortcut icon" href="../../assets/favicon.ico">
+    <link rel="stylesheet" href="../../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../../styles/docfx.css">
+    <link rel="stylesheet" href="../../styles/main.css">
+    <meta property="docfx:navrel" content="../../toc.html">
+    <meta property="docfx:tocrel" content="../toc.html">
+    
+    <meta property="docfx:rel" content="../../">
+    <meta property="docfx:newtab" content="true">
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../../index.html">
+                <img id="logo" class="svg" src="../../assets/sdworx_logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div class="container body-content">
+        
+        <div id="search-results">
+          <div class="search-list">Search Results for <span></span></div>
+          <div class="sr-items">
+            <p><i class="glyphicon glyphicon-refresh index-loading"></i></p>
+          </div>
+          <ul id="pagination" data-first="First" data-prev="Previous" data-next="Next" data-last="Last"></ul>
+        </div>
+      </div>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="">
+<h1 id="menewsfeeditems">me/newsfeedItems</h1>
+
+<p>This domain is used to handle a users newsfeed items.</p>
+<h2 id="endpoints">Endpoints</h2>
+<h3 id="get-menewsfeeditems">GET /me/newsfeedItems</h3>
+<p>An endpoint to retrieve a list of newsfeed items for the authorized user.
+This endpoint accepts the following parameters to filter the newsfeed items.</p>
+<table>
+<thead>
+<tr>
+<th>Parameter</th>
+<th>Description</th>
+<th>Type</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>includetag</td>
+<td>Tags to include</td>
+<td>string</td>
+</tr>
+<tr>
+<td>excludeTag</td>
+<td>Tags to exclude</td>
+<td>string</td>
+</tr>
+<tr>
+<td>spotlight</td>
+<td>Spotlight items only</td>
+<td>boolean</td>
+</tr>
+<tr>
+<td>page</td>
+<td>Page number</td>
+<td>integer</td>
+</tr>
+<tr>
+<td>count</td>
+<td>Number of items per page</td>
+<td>integer</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Return example:</strong>
+The newsfeedId in the result can be used to call one of the other endpoints to get content, actions or delete a newsfeedItem.</p>
+<pre><code>{
+  &quot;state&quot;: &quot;Success&quot;,
+  &quot;error&quot;: {
+    &quot;message&quot;: &quot;string&quot;
+  },
+  &quot;result&quot;: {
+    &quot;items&quot;: [
+      {
+        &quot;newsfeedId&quot;: &quot;string&quot;,
+        &quot;companyId&quot;: &quot;string&quot;,
+        &quot;title&quot;: &quot;string&quot;,
+        &quot;label&quot;: &quot;string&quot;,
+        &quot;sublabel&quot;: &quot;string&quot;,
+        &quot;typeOfContent&quot;: &quot;None&quot;,
+        &quot;iconUrl&quot;: &quot;string&quot;,
+        &quot;isRead&quot;: true,
+        &quot;isHomeScreenVisible&quot;: true,
+      },
+      {
+        &quot;newsfeedId&quot;: &quot;string&quot;,
+        &quot;companyId&quot;: &quot;string&quot;,
+        &quot;title&quot;: &quot;string&quot;,
+        &quot;label&quot;: &quot;string&quot;,
+        &quot;sublabel&quot;: &quot;string&quot;,
+        &quot;typeOfContent&quot;: &quot;None&quot;,
+        &quot;iconUrl&quot;: &quot;string&quot;,
+        &quot;isRead&quot;: true,
+        &quot;isHomeScreenVisible&quot;: true,
+      }
+    ],
+    &quot;total&quot;: 0,
+    &quot;page&quot;: 0,
+    &quot;count&quot;: 0,
+    &quot;hasMore&quot;: true,
+    &quot;nextPageUrl&quot;: &quot;string&quot;,
+    &quot;previousPageUrl&quot;: &quot;string&quot;,
+    &quot;firstPageUrl&quot;: &quot;string&quot;,
+    &quot;lastPageUrl&quot;: &quot;string&quot;
+  }
+}
+</code></pre><h3 id="delete-menewsfeeditemsnewsfeeditemid">Delete /me/newsfeeditems/{newsfeedItemId}</h3>
+<p>An endpoint to delete a newsfeed item. It requires a newsfeedItemId as a Url parameter.</p>
+<p><strong>Returns:</strong></p>
+<ul>
+<li>204: No Content to return</li>
+<li>404: Newsfeed item not found.</li>
+</ul>
+<h3 id="put-menewsfeeditemsnewsfeeditemidread">Put /me/newsfeeditems/{NewsfeedItemId}/read</h3>
+<p>An endpoint to mark the newsfeed item as read. It requires a newsfeedItemId as a Url parameter.</p>
+<p><strong>Returns:</strong></p>
+<ul>
+<li>200: OK</li>
+<li>404: Newsfeed item not found.</li>
+</ul>
+<h3 id="put-menewsfeeditemsnewsfeeditemiddismiss-from-home">Put /me/newsfeeditems/{NewsfeedItemId}/dismiss-from-home</h3>
+<p>An endpoint to dismiss the newsfeed item from the homepage. It requires a newsfeedItemId as a Url parameter.</p>
+<p><strong>Returns:</strong></p>
+<ul>
+<li>200: OK</li>
+<li>404: Newsfeed item not found.</li>
+</ul>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://sdworxcollection1.visualstudio.com/SoSeCommon/_git/MessagingApi?path=SDWORX.Messaging.Documentation/topics/domains/meNewsfeeditems.md&amp;version=GBdocumentation&amp;line=1" class="contribution-link">Improve this Doc</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <script type="text/javascript" src="../../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../../styles/docfx.js"></script>
+    <script type="text/javascript" src="../../styles/main.js"></script>
+  </body>
+</html>

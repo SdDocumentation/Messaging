@@ -1,0 +1,354 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>admin/publications </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="admin/publications ">
+    <meta name="generator" content="docfx 2.58.4.0">
+    
+    <link rel="shortcut icon" href="../../assets/favicon.ico">
+    <link rel="stylesheet" href="../../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../../styles/docfx.css">
+    <link rel="stylesheet" href="../../styles/main.css">
+    <meta property="docfx:navrel" content="../../toc.html">
+    <meta property="docfx:tocrel" content="../toc.html">
+    
+    <meta property="docfx:rel" content="../../">
+    <meta property="docfx:newtab" content="true">
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../../index.html">
+                <img id="logo" class="svg" src="../../assets/sdworx_logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div class="container body-content">
+        
+        <div id="search-results">
+          <div class="search-list">Search Results for <span></span></div>
+          <div class="sr-items">
+            <p><i class="glyphicon glyphicon-refresh index-loading"></i></p>
+          </div>
+          <ul id="pagination" data-first="First" data-prev="Previous" data-next="Next" data-last="Last"></ul>
+        </div>
+      </div>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="">
+<h1 id="adminpublications">admin/publications</h1>
+
+<p>The publications domain is al about the publication of messages, either directly or to publish an already existing message template in the database.</p>
+<h2 id="the-publication-model">The publication model</h2>
+<pre><code>{
+  &quot;id&quot;: &quot;3fa85f64-5717-4562-b3fc-2c963f66afa6&quot;,
+  &quot;companyId&quot;: &quot;string&quot;,
+  &quot;companyIdentifier&quot;: &quot;Account&quot;,
+  &quot;application&quot;: &quot;string&quot;,
+  &quot;identifierWithinApplication&quot;: &quot;string&quot;,
+  &quot;publisherId&quot;: &quot;string&quot;,
+  &quot;category&quot;: &quot;string&quot;,
+  &quot;priority&quot;: &quot;Unknown&quot;,
+  &quot;doNotSendBeforeDateTimeUtc&quot;: &quot;2021-10-27T12:09:10.688Z&quot;,
+  &quot;expirationDateTimeUtc&quot;: &quot;2021-10-27T12:09:10.688Z&quot;,
+  &quot;preferredCompanyChannels&quot;: &quot;None&quot;,
+  &quot;showInSpotlight&quot;: true,
+  &quot;excludeFromStatistics&quot;: true,
+  &quot;createdDateTimeUtc&quot;: &quot;2021-10-27T12:09:10.688Z&quot;,
+  &quot;deletedDateTimeUtc&quot;: &quot;2021-10-27T12:09:10.688Z&quot;,
+  &quot;message&quot;: {
+    &quot;id&quot;: &quot;3fa85f64-5717-4562-b3fc-2c963f66afa6&quot;,
+    &quot;authorId&quot;: &quot;string&quot;,
+    &quot;isATemplate&quot;: true,
+    &quot;createdDateTimeUtc&quot;: &quot;2021-10-27T12:09:10.688Z&quot;,
+    &quot;modifiedDateTimeUtc&quot;: &quot;2021-10-27T12:09:10.688Z&quot;,
+    &quot;modifiedById&quot;: &quot;3fa85f64-5717-4562-b3fc-2c963f66afa6&quot;,
+    &quot;deletedDateTimeUtc&quot;: &quot;2021-10-27T12:09:10.688Z&quot;,
+    &quot;tags&quot;: [
+      &quot;string&quot;
+    ],
+    &quot;arguments&quot;: [
+      &quot;string&quot;
+    ],
+    &quot;translations&quot;: [
+      {
+        &quot;languageIsoCode&quot;: &quot;string&quot;,
+        &quot;title&quot;: &quot;string&quot;,
+        &quot;label&quot;: &quot;string&quot;,
+        &quot;sublabel&quot;: &quot;string&quot;,
+        &quot;iconUri&quot;: &quot;string&quot;,
+        &quot;applicationPageUri&quot;: &quot;string&quot;,
+        &quot;externalUri&quot;: &quot;string&quot;,
+        &quot;messageBodies&quot;: [
+          {
+            &quot;messageId&quot;: &quot;3fa85f64-5717-4562-b3fc-2c963f66afa6&quot;,
+            &quot;languageIsoCode&quot;: &quot;string&quot;,
+            &quot;content&quot;: &quot;None&quot;,
+            &quot;text&quot;: &quot;string&quot;
+          }
+        ],
+        &quot;actions&quot;: [
+          {
+            &quot;id&quot;: &quot;3fa85f64-5717-4562-b3fc-2c963f66afa6&quot;,
+            &quot;name&quot;: &quot;string&quot;,
+            &quot;title&quot;: &quot;string&quot;,
+            &quot;uri&quot;: &quot;string&quot;,
+            &quot;jsonBody&quot;: &quot;string&quot;,
+            &quot;deleteOnExecute&quot;: true,
+            &quot;verb&quot;: &quot;None&quot;
+          }
+        ]
+      }
+    ]
+  },
+  &quot;publicationAddressees&quot;: [
+    {
+      &quot;addresseeId&quot;: &quot;string&quot;,
+      &quot;addresseeIdentifier&quot;: &quot;Unknown&quot;
+    }
+  ]
+}
+</code></pre><h2 id="vocabulary">Vocabulary</h2>
+<h3 id="publicationaddressees">publicationAddressees</h3>
+<p> A collection of addressees for the publication, the identifier can be of the following types:</p>
+<table>
+<thead>
+<tr>
+<th>Value</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>GroupId</td>
+<td>Send to group</td>
+</tr>
+<tr>
+<td>PersonalProfileObjectId</td>
+<td>Send to personal profile object id</td>
+</tr>
+<tr>
+<td>UserIdForApplicationMijnLoon</td>
+<td>Send to user id for application MySalary</td>
+</tr>
+</tbody>
+</table>
+<h3 id="messagebodies">messageBodies</h3>
+<p> A collection to specify the different possible contents of your message, these can be of the following content types:</p>
+<table>
+<thead>
+<tr>
+<th>Value</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>HTML</td>
+<td>A message body in formatted HTML (i.e. Email)</td>
+</tr>
+<tr>
+<td>JSON</td>
+<td>A message body in JSON</td>
+</tr>
+<tr>
+<td>Plaintext</td>
+<td>A message body in plain text (i.e. Email backup)</td>
+</tr>
+</tbody>
+</table>
+<h2 id="endpoints">Endpoints</h2>
+<h3 id="post-adminpublications">POST /admin​/publications​/</h3>
+<p>An endpoint to post your publication, including your message.</p>
+<p><strong>Returns:</strong></p>
+<ul>
+<li>201: The 201 CreatedAt returns a location to retrieve your publication.</li>
+<li>400: Bad request, see exception message.</li>
+</ul>
+<p><strong>Example:</strong></p>
+<p>In this example you can see a publication for a message with 2 languages included, sent to a single <strong>PersonalProfileObjectId</strong></p>
+<pre><code>{
+   &quot;companyId&quot;:&quot;string&quot;,
+   &quot;companyIdentifier&quot;:&quot;Account&quot;,
+   &quot;application&quot;:&quot;string&quot;,
+   &quot;identifierWithinApplication&quot;:&quot;string&quot;,
+   &quot;publisherId&quot;:&quot;string&quot;,
+   &quot;category&quot;:&quot;string&quot;,
+   &quot;priority&quot;:&quot;Unknown&quot;,
+   &quot;doNotSendBeforeDateTimeUtc&quot;:&quot;2021-09-20T08:38:58.247Z&quot;,
+   &quot;expirationDateTimeUtc&quot;:&quot;2021-09-20T08:38:58.247Z&quot;,
+   &quot;preferredCompanyChannels&quot;:&quot;None&quot;,
+   &quot;showInSpotlight&quot;:true,
+   &quot;excludeFromStatistics&quot;:true,
+   &quot;message&quot;:{
+      &quot;isATemplate&quot;:false,
+      &quot;translations&quot;:[
+         {
+            &quot;languageIsoCode&quot;:&quot;NL&quot;,
+            &quot;title&quot;:&quot;Test Title NL&quot;,
+            &quot;label&quot;:&quot;Test Label NL&quot;,
+            &quot;sublabel&quot;:&quot;Test Sublabel NL&quot;,
+            &quot;iconUri&quot;:&quot;https://www.sdworx.be/assets/corporate/img/sdworx_logo.svg&quot;,
+            &quot;applicationPageUri&quot;:&quot;https://www.sdworx.be&quot;,
+            &quot;externalUri&quot;:&quot;https://www.sdworx.be&quot;,
+            &quot;arguments&quot;:{
+
+            },
+            &quot;messageBodies&quot;:[
+               {
+                  &quot;content&quot;:&quot;Html&quot;,
+                  &quot;text&quot;:&quot;&lt;html&gt;&lt;body&gt;&lt;h1&gt;this is a test&lt;/h1&gt;&lt;p&gt;This is a test message NL&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;&quot;
+               }
+            ]
+         },
+         {
+            &quot;languageIsoCode&quot;:&quot;EN&quot;,
+            &quot;title&quot;:&quot;Test Title EN&quot;,
+            &quot;label&quot;:&quot;Test Label EN&quot;,
+            &quot;sublabel&quot;:&quot;Test Sublabel EN&quot;,
+            &quot;iconUri&quot;:&quot;https://www.sdworx.be/assets/corporate/img/sdworx_logo.svg&quot;,
+            &quot;applicationPageUri&quot;:&quot;https://www.sdworx.be&quot;,
+            &quot;externalUri&quot;:&quot;https://www.sdworx.be&quot;,
+            &quot;arguments&quot;:{
+
+            },
+            &quot;messageBodies&quot;:[
+               {
+                  &quot;content&quot;:&quot;Html&quot;,
+                  &quot;text&quot;:&quot;&lt;html&gt;&lt;body&gt;&lt;h1&gt;this is a test&lt;/h1&gt;&lt;p&gt;This is a test message EN&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;&quot;
+               }
+            ]
+         }
+      ]
+   },
+   &quot;publicationAddressees&quot;:[
+      {
+         &quot;addresseeId&quot;:&quot;5401d758-4825-490b-92b6-9ce1e1923785&quot;,
+         &quot;addresseeIdentifier&quot;:&quot;PersonalProfileObjectId&quot;
+      }
+   ]
+}
+</code></pre><h3 id="get-adminpublicationspublicationid">GET /admin​/publications​/{publicationId}</h3>
+<p>An endpoint to retrieve an already existing publication, this can be achieved by including the <strong>publicationId</strong> as a URL parameter.
+This also the endpoint used in the location header of the POST.</p>
+<p><strong>Returns:</strong></p>
+<ul>
+<li>200: Returns the requested publication</li>
+<li>404: Publication not found</li>
+</ul>
+<h3 id="post-adminpublicationsfortemplate">POST /admin/publications/forTemplate</h3>
+<p>An endpoint to publish a message that exists as a template in the database.
+Structure is similar to a normal publication, except that the message is replaced by a messageId.
+The publication also has a collection of arguments for each language, these are only needed if your template needs replacements.
+If the provided arguments do not match the specified template, you will get an exception.</p>
+<p><strong>Returns:</strong></p>
+<ul>
+<li>201: The 201 CreatedAt returns a location to retrieve your publication.</li>
+<li>400: Bad request, see exception message.</li>
+</ul>
+<p><strong>Example:</strong></p>
+<pre><code>{
+  &quot;companyId&quot;: &quot;string&quot;,
+  &quot;companyIdentifier&quot;: &quot;Account&quot;,
+  &quot;application&quot;: &quot;string&quot;,
+  &quot;identifierWithinApplication&quot;: &quot;string&quot;,
+  &quot;publisherId&quot;: &quot;string&quot;,
+  &quot;category&quot;: &quot;string&quot;,
+  &quot;priority&quot;: &quot;Unknown&quot;,
+  &quot;doNotSendBeforeDateTimeUtc&quot;: &quot;2021-10-27T12:47:14.789Z&quot;,
+  &quot;expirationDateTimeUtc&quot;: &quot;2021-10-27T12:47:14.789Z&quot;,
+  &quot;preferredCompanyChannels&quot;: &quot;None&quot;,
+  &quot;showInSpotlight&quot;: true,
+  &quot;excludeFromStatistics&quot;: true,
+  &quot;createdDateTimeUtc&quot;: &quot;2021-10-27T12:47:14.789Z&quot;,
+  &quot;deletedDateTimeUtc&quot;: &quot;2021-10-27T12:47:14.789Z&quot;,
+  &quot;messageId&quot;: &quot;3fa85f64-5717-4562-b3fc-2c963f66afa6&quot;,
+  &quot;arguments&quot;: [
+    {
+      &quot;language&quot;: &quot;NL&quot;,
+      &quot;data&quot;: {
+        &quot;DocumentType&quot;: &quot;Loonbrief&quot;,
+      }
+    },
+     {
+      &quot;language&quot;: &quot;EN&quot;,
+      &quot;data&quot;: {
+        &quot;DocumentType&quot;: &quot;Payslip&quot;,
+      }
+    }
+  ],
+  &quot;publicationAddressees&quot;: [
+    {
+      &quot;addresseeId&quot;: &quot;string&quot;,
+      &quot;addresseeIdentifier&quot;: &quot;Unknown&quot;
+    }
+  ]
+}
+</code></pre></article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://sdworxcollection1.visualstudio.com/SoSeCommon/_git/MessagingApi?path=SDWORX.Messaging.Documentation/topics/domains/adminPublications.md&amp;version=GBdocumentation&amp;line=1" class="contribution-link">Improve this Doc</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <script type="text/javascript" src="../../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../../styles/docfx.js"></script>
+    <script type="text/javascript" src="../../styles/main.js"></script>
+  </body>
+</html>

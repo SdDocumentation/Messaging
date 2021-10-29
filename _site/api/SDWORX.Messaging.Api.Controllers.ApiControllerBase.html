@@ -1,0 +1,1557 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class ApiControllerBase
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class ApiControllerBase
+   ">
+    <meta name="generator" content="docfx 2.58.4.0">
+    
+    <link rel="shortcut icon" href="../assets/favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    <meta property="docfx:rel" content="../">
+    <meta property="docfx:newtab" content="true">
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../assets/sdworx_logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div class="container body-content">
+        
+        <div id="search-results">
+          <div class="search-list">Search Results for <span></span></div>
+          <div class="sr-items">
+            <p><i class="glyphicon glyphicon-refresh index-loading"></i></p>
+          </div>
+          <ul id="pagination" data-first="First" data-prev="Previous" data-next="Next" data-last="Last"></ul>
+        </div>
+      </div>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="SDWORX.Messaging.Api.Controllers.ApiControllerBase">
+  
+  
+  <h1 id="SDWORX_Messaging_Api_Controllers_ApiControllerBase" data-uid="SDWORX.Messaging.Api.Controllers.ApiControllerBase" class="text-break">Class ApiControllerBase
+  </h1>
+  <div class="markdown level0 summary"><p>Base class for all controllers, main purpose is to wrap all standard response into the SD objects</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><span class="xref">Microsoft.AspNetCore.Mvc.ControllerBase</span></div>
+    <div class="level2"><span class="xref">ApiControllerBase</span></div>
+      <div class="level3"><a class="xref" href="SDWORX.Messaging.Api.Controllers.Admin.MessageController.html">MessageController</a></div>
+      <div class="level3"><a class="xref" href="SDWORX.Messaging.Api.Controllers.Admin.PublicationController.html">PublicationController</a></div>
+      <div class="level3"><a class="xref" href="SDWORX.Messaging.Api.Controllers.Me.DeviceController.html">DeviceController</a></div>
+      <div class="level3"><a class="xref" href="SDWORX.Messaging.Api.Controllers.Me.NewsfeedItemController.html">NewsfeedItemController</a></div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="SDWORX.Messaging.Api.Controllers.html">SDWORX.Messaging.Api.Controllers</a></h6>
+  <h6><strong>Assembly</strong>: SDWORX.Messaging.Api.dll</h6>
+  <h5 id="SDWORX_Messaging_Api_Controllers_ApiControllerBase_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class ApiControllerBase : ControllerBase</code></pre>
+  </div>
+  <h3 id="methods">Methods
+  </h3>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://sdworxcollection1.visualstudio.com/SoSeCommon/_git/MessagingApi?path=SDWORX.Messaging.Api/Controllers/ApiControllerBase.cs&amp;version=GBdocumentation&amp;line=242">View Source</a>
+  </span>
+  <a id="SDWORX_Messaging_Api_Controllers_ApiControllerBase_Accepted_" data-uid="SDWORX.Messaging.Api.Controllers.ApiControllerBase.Accepted*"></a>
+  <h4 id="SDWORX_Messaging_Api_Controllers_ApiControllerBase_Accepted" data-uid="SDWORX.Messaging.Api.Controllers.ApiControllerBase.Accepted">Accepted()</h4>
+  <div class="markdown level1 summary"><p>Response accepted, 202</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected AcceptedResult Accepted()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Microsoft.AspNetCore.Mvc.AcceptedResult</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://sdworxcollection1.visualstudio.com/SoSeCommon/_git/MessagingApi?path=SDWORX.Messaging.Api/Controllers/ApiControllerBase.cs&amp;version=GBdocumentation&amp;line=257">View Source</a>
+  </span>
+  <a id="SDWORX_Messaging_Api_Controllers_ApiControllerBase_Accepted_" data-uid="SDWORX.Messaging.Api.Controllers.ApiControllerBase.Accepted*"></a>
+  <h4 id="SDWORX_Messaging_Api_Controllers_ApiControllerBase_Accepted__1___0_" data-uid="SDWORX.Messaging.Api.Controllers.ApiControllerBase.Accepted``1(``0)">Accepted&lt;T&gt;(T)</h4>
+  <div class="markdown level1 summary"><p>Response accepted, 202, with object to wrap</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected AcceptedResult Accepted&lt;T&gt;(T value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">T</span></td>
+        <td><span class="parametername">value</span></td>
+        <td><p>The object that will be wrapped to return</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Microsoft.AspNetCore.Mvc.AcceptedResult</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td><p>The type of object that will be returned</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://sdworxcollection1.visualstudio.com/SoSeCommon/_git/MessagingApi?path=SDWORX.Messaging.Api/Controllers/ApiControllerBase.cs&amp;version=GBdocumentation&amp;line=273">View Source</a>
+  </span>
+  <a id="SDWORX_Messaging_Api_Controllers_ApiControllerBase_Accepted_" data-uid="SDWORX.Messaging.Api.Controllers.ApiControllerBase.Accepted*"></a>
+  <h4 id="SDWORX_Messaging_Api_Controllers_ApiControllerBase_Accepted__1_System_String___0_" data-uid="SDWORX.Messaging.Api.Controllers.ApiControllerBase.Accepted``1(System.String,``0)">Accepted&lt;T&gt;(String, T)</h4>
+  <div class="markdown level1 summary"><p>Response accepted, 202, with object to wrap and url</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected AcceptedResult Accepted&lt;T&gt;(string uri, T value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">uri</span></td>
+        <td><p>The uri to call</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">T</span></td>
+        <td><span class="parametername">value</span></td>
+        <td><p>The object that will be wrapped to return</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Microsoft.AspNetCore.Mvc.AcceptedResult</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td><p>The type of object that will be returned</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://sdworxcollection1.visualstudio.com/SoSeCommon/_git/MessagingApi?path=SDWORX.Messaging.Api/Controllers/ApiControllerBase.cs&amp;version=GBdocumentation&amp;line=289">View Source</a>
+  </span>
+  <a id="SDWORX_Messaging_Api_Controllers_ApiControllerBase_AcceptedAtAction_" data-uid="SDWORX.Messaging.Api.Controllers.ApiControllerBase.AcceptedAtAction*"></a>
+  <h4 id="SDWORX_Messaging_Api_Controllers_ApiControllerBase_AcceptedAtAction__1_System_String___0_" data-uid="SDWORX.Messaging.Api.Controllers.ApiControllerBase.AcceptedAtAction``1(System.String,``0)">AcceptedAtAction&lt;T&gt;(String, T)</h4>
+  <div class="markdown level1 summary"><p>Response accepted, 202, with a actionname to generate a new uri</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected AcceptedAtActionResult AcceptedAtAction&lt;T&gt;(string actionName, T value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">actionName</span></td>
+        <td><p>The actionname to create a url</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">T</span></td>
+        <td><span class="parametername">value</span></td>
+        <td><p>The object that will be wrapped to return</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Microsoft.AspNetCore.Mvc.AcceptedAtActionResult</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td><p>The type of object that will be returned</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://sdworxcollection1.visualstudio.com/SoSeCommon/_git/MessagingApi?path=SDWORX.Messaging.Api/Controllers/ApiControllerBase.cs&amp;version=GBdocumentation&amp;line=306">View Source</a>
+  </span>
+  <a id="SDWORX_Messaging_Api_Controllers_ApiControllerBase_AcceptedAtAction_" data-uid="SDWORX.Messaging.Api.Controllers.ApiControllerBase.AcceptedAtAction*"></a>
+  <h4 id="SDWORX_Messaging_Api_Controllers_ApiControllerBase_AcceptedAtAction__1_System_String_System_Object___0_" data-uid="SDWORX.Messaging.Api.Controllers.ApiControllerBase.AcceptedAtAction``1(System.String,System.Object,``0)">AcceptedAtAction&lt;T&gt;(String, Object, T)</h4>
+  <div class="markdown level1 summary"><p>Response accepted, 202, with a actionname and routevalues to generate a new uri</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected AcceptedAtActionResult AcceptedAtAction&lt;T&gt;(string actionName, object routeValues, T value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">actionName</span></td>
+        <td><p>The actionname to create a url</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Object</span></td>
+        <td><span class="parametername">routeValues</span></td>
+        <td><p>The object containing the route values</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">T</span></td>
+        <td><span class="parametername">value</span></td>
+        <td><p>The object that will be wrapped to return</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Microsoft.AspNetCore.Mvc.AcceptedAtActionResult</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td><p>The type of object that will be returned</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://sdworxcollection1.visualstudio.com/SoSeCommon/_git/MessagingApi?path=SDWORX.Messaging.Api/Controllers/ApiControllerBase.cs&amp;version=GBdocumentation&amp;line=355">View Source</a>
+  </span>
+  <a id="SDWORX_Messaging_Api_Controllers_ApiControllerBase_BadRequest_" data-uid="SDWORX.Messaging.Api.Controllers.ApiControllerBase.BadRequest*"></a>
+  <h4 id="SDWORX_Messaging_Api_Controllers_ApiControllerBase_BadRequest" data-uid="SDWORX.Messaging.Api.Controllers.ApiControllerBase.BadRequest">BadRequest()</h4>
+  <div class="markdown level1 summary"><p>Response bad request, 400</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected BadRequestObjectResult BadRequest()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Microsoft.AspNetCore.Mvc.BadRequestObjectResult</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://sdworxcollection1.visualstudio.com/SoSeCommon/_git/MessagingApi?path=SDWORX.Messaging.Api/Controllers/ApiControllerBase.cs&amp;version=GBdocumentation&amp;line=374">View Source</a>
+  </span>
+  <a id="SDWORX_Messaging_Api_Controllers_ApiControllerBase_BadRequest_" data-uid="SDWORX.Messaging.Api.Controllers.ApiControllerBase.BadRequest*"></a>
+  <h4 id="SDWORX_Messaging_Api_Controllers_ApiControllerBase_BadRequest__1___0_" data-uid="SDWORX.Messaging.Api.Controllers.ApiControllerBase.BadRequest``1(``0)">BadRequest&lt;T&gt;(T)</h4>
+  <div class="markdown level1 summary"><p>Response bad request, 400, with object to return</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected BadRequestObjectResult BadRequest&lt;T&gt;(T value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">T</span></td>
+        <td><span class="parametername">value</span></td>
+        <td><p>The object to return</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Microsoft.AspNetCore.Mvc.BadRequestObjectResult</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td><p>Type of object to wrap and return</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://sdworxcollection1.visualstudio.com/SoSeCommon/_git/MessagingApi?path=SDWORX.Messaging.Api/Controllers/ApiControllerBase.cs&amp;version=GBdocumentation&amp;line=394">View Source</a>
+  </span>
+  <a id="SDWORX_Messaging_Api_Controllers_ApiControllerBase_BadRequest_" data-uid="SDWORX.Messaging.Api.Controllers.ApiControllerBase.BadRequest*"></a>
+  <h4 id="SDWORX_Messaging_Api_Controllers_ApiControllerBase_BadRequest__1___0_System_String_" data-uid="SDWORX.Messaging.Api.Controllers.ApiControllerBase.BadRequest``1(``0,System.String)">BadRequest&lt;T&gt;(T, String)</h4>
+  <div class="markdown level1 summary"><p>Response bad request, 400, with object to return and custom error message</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected BadRequestObjectResult BadRequest&lt;T&gt;(T value, string errorMessage)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">T</span></td>
+        <td><span class="parametername">value</span></td>
+        <td><p>The object to return</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">errorMessage</span></td>
+        <td><p>The custom error message</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Microsoft.AspNetCore.Mvc.BadRequestObjectResult</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td><p>The type of object to return</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://sdworxcollection1.visualstudio.com/SoSeCommon/_git/MessagingApi?path=SDWORX.Messaging.Api/Controllers/ApiControllerBase.cs&amp;version=GBdocumentation&amp;line=85">View Source</a>
+  </span>
+  <a id="SDWORX_Messaging_Api_Controllers_ApiControllerBase_Created_" data-uid="SDWORX.Messaging.Api.Controllers.ApiControllerBase.Created*"></a>
+  <h4 id="SDWORX_Messaging_Api_Controllers_ApiControllerBase_Created__1_System_String___0_" data-uid="SDWORX.Messaging.Api.Controllers.ApiControllerBase.Created``1(System.String,``0)">Created&lt;T&gt;(String, T)</h4>
+  <div class="markdown level1 summary"><p>Response created with object in body, and get uri</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected CreatedResult Created&lt;T&gt;(string uri, T value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">uri</span></td>
+        <td><p>The uri to get the newly created object</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">T</span></td>
+        <td><span class="parametername">value</span></td>
+        <td><p>This object will be wrapped, and is put under property &quot;Result&quot;</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Microsoft.AspNetCore.Mvc.CreatedResult</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td><p>The type of object that will be wrapped</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://sdworxcollection1.visualstudio.com/SoSeCommon/_git/MessagingApi?path=SDWORX.Messaging.Api/Controllers/ApiControllerBase.cs&amp;version=GBdocumentation&amp;line=69">View Source</a>
+  </span>
+  <a id="SDWORX_Messaging_Api_Controllers_ApiControllerBase_Created_" data-uid="SDWORX.Messaging.Api.Controllers.ApiControllerBase.Created*"></a>
+  <h4 id="SDWORX_Messaging_Api_Controllers_ApiControllerBase_Created__1_System_Uri___0_" data-uid="SDWORX.Messaging.Api.Controllers.ApiControllerBase.Created``1(System.Uri,``0)">Created&lt;T&gt;(Uri, T)</h4>
+  <div class="markdown level1 summary"><p>Response created with object in body, and get uri</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected CreatedResult Created&lt;T&gt;(Uri uri, T value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Uri</span></td>
+        <td><span class="parametername">uri</span></td>
+        <td><p>The uri to get the newly created object</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">T</span></td>
+        <td><span class="parametername">value</span></td>
+        <td><p>This object will be wrapped, and is put under property &quot;Result&quot;</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Microsoft.AspNetCore.Mvc.CreatedResult</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td><p>The type of object that will be wrapped</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://sdworxcollection1.visualstudio.com/SoSeCommon/_git/MessagingApi?path=SDWORX.Messaging.Api/Controllers/ApiControllerBase.cs&amp;version=GBdocumentation&amp;line=141">View Source</a>
+  </span>
+  <a id="SDWORX_Messaging_Api_Controllers_ApiControllerBase_CreatedAtAction_" data-uid="SDWORX.Messaging.Api.Controllers.ApiControllerBase.CreatedAtAction*"></a>
+  <h4 id="SDWORX_Messaging_Api_Controllers_ApiControllerBase_CreatedAtAction__1_System_String___0_" data-uid="SDWORX.Messaging.Api.Controllers.ApiControllerBase.CreatedAtAction``1(System.String,``0)">CreatedAtAction&lt;T&gt;(String, T)</h4>
+  <div class="markdown level1 summary"><p>Response created, 201, with required actionName and created object</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected CreatedAtActionResult CreatedAtAction&lt;T&gt;(string actionName, T value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">actionName</span></td>
+        <td><p>The name of the get method</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">T</span></td>
+        <td><span class="parametername">value</span></td>
+        <td><p>The created object</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Microsoft.AspNetCore.Mvc.CreatedAtActionResult</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td><p>Type of created object</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://sdworxcollection1.visualstudio.com/SoSeCommon/_git/MessagingApi?path=SDWORX.Messaging.Api/Controllers/ApiControllerBase.cs&amp;version=GBdocumentation&amp;line=158">View Source</a>
+  </span>
+  <a id="SDWORX_Messaging_Api_Controllers_ApiControllerBase_CreatedAtAction_" data-uid="SDWORX.Messaging.Api.Controllers.ApiControllerBase.CreatedAtAction*"></a>
+  <h4 id="SDWORX_Messaging_Api_Controllers_ApiControllerBase_CreatedAtAction__1_System_String_System_Object___0_" data-uid="SDWORX.Messaging.Api.Controllers.ApiControllerBase.CreatedAtAction``1(System.String,System.Object,``0)">CreatedAtAction&lt;T&gt;(String, Object, T)</h4>
+  <div class="markdown level1 summary"><p>Response created, 201, with required actionName and optional route value and created object</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected CreatedAtActionResult CreatedAtAction&lt;T&gt;(string actionName, object routeValues, T value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">actionName</span></td>
+        <td><p>The name of the get method</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Object</span></td>
+        <td><span class="parametername">routeValues</span></td>
+        <td><p>The route values, can be new id of the created object</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">T</span></td>
+        <td><span class="parametername">value</span></td>
+        <td><p>The created object</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Microsoft.AspNetCore.Mvc.CreatedAtActionResult</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td><p>Type of created object</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://sdworxcollection1.visualstudio.com/SoSeCommon/_git/MessagingApi?path=SDWORX.Messaging.Api/Controllers/ApiControllerBase.cs&amp;version=GBdocumentation&amp;line=176">View Source</a>
+  </span>
+  <a id="SDWORX_Messaging_Api_Controllers_ApiControllerBase_CreatedAtAction_" data-uid="SDWORX.Messaging.Api.Controllers.ApiControllerBase.CreatedAtAction*"></a>
+  <h4 id="SDWORX_Messaging_Api_Controllers_ApiControllerBase_CreatedAtAction__1_System_String_System_String_System_Object___0_" data-uid="SDWORX.Messaging.Api.Controllers.ApiControllerBase.CreatedAtAction``1(System.String,System.String,System.Object,``0)">CreatedAtAction&lt;T&gt;(String, String, Object, T)</h4>
+  <div class="markdown level1 summary"><p>Response created, 201, with required actionName, optional controller name, optional route value and created object</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected CreatedAtActionResult CreatedAtAction&lt;T&gt;(string actionName, string controllerName, object routeValues, T value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">actionName</span></td>
+        <td><p>The name of the get method</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">controllerName</span></td>
+        <td><p>The controller name, where the method can be found</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Object</span></td>
+        <td><span class="parametername">routeValues</span></td>
+        <td><p>The route values, can be new id of the created object</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">T</span></td>
+        <td><span class="parametername">value</span></td>
+        <td><p>The created object</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Microsoft.AspNetCore.Mvc.CreatedAtActionResult</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td><p>Type of created object</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://sdworxcollection1.visualstudio.com/SoSeCommon/_git/MessagingApi?path=SDWORX.Messaging.Api/Controllers/ApiControllerBase.cs&amp;version=GBdocumentation&amp;line=212">View Source</a>
+  </span>
+  <a id="SDWORX_Messaging_Api_Controllers_ApiControllerBase_CreatedAtRoute_" data-uid="SDWORX.Messaging.Api.Controllers.ApiControllerBase.CreatedAtRoute*"></a>
+  <h4 id="SDWORX_Messaging_Api_Controllers_ApiControllerBase_CreatedAtRoute__1_System_Object___0_" data-uid="SDWORX.Messaging.Api.Controllers.ApiControllerBase.CreatedAtRoute``1(System.Object,``0)">CreatedAtRoute&lt;T&gt;(Object, T)</h4>
+  <div class="markdown level1 summary"><p>Response created, 201, with the route as object to query the new object,</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected CreatedAtRouteResult CreatedAtRoute&lt;T&gt;(object routeValues, T value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Object</span></td>
+        <td><span class="parametername">routeValues</span></td>
+        <td><p>The object containing all the info to route</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">T</span></td>
+        <td><span class="parametername">value</span></td>
+        <td><p>The created object</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Microsoft.AspNetCore.Mvc.CreatedAtRouteResult</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td><p>Type of created object</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://sdworxcollection1.visualstudio.com/SoSeCommon/_git/MessagingApi?path=SDWORX.Messaging.Api/Controllers/ApiControllerBase.cs&amp;version=GBdocumentation&amp;line=196">View Source</a>
+  </span>
+  <a id="SDWORX_Messaging_Api_Controllers_ApiControllerBase_CreatedAtRoute_" data-uid="SDWORX.Messaging.Api.Controllers.ApiControllerBase.CreatedAtRoute*"></a>
+  <h4 id="SDWORX_Messaging_Api_Controllers_ApiControllerBase_CreatedAtRoute__1_System_String___0_" data-uid="SDWORX.Messaging.Api.Controllers.ApiControllerBase.CreatedAtRoute``1(System.String,``0)">CreatedAtRoute&lt;T&gt;(String, T)</h4>
+  <div class="markdown level1 summary"><p>Response created, 201, with the route that can be queried to get the new object</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected CreatedAtRouteResult CreatedAtRoute&lt;T&gt;(string routeName, T value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">routeName</span></td>
+        <td><p>The url to query by id for the new object</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">T</span></td>
+        <td><span class="parametername">value</span></td>
+        <td><p>The created object</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Microsoft.AspNetCore.Mvc.CreatedAtRouteResult</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td><p>Type of created object</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://sdworxcollection1.visualstudio.com/SoSeCommon/_git/MessagingApi?path=SDWORX.Messaging.Api/Controllers/ApiControllerBase.cs&amp;version=GBdocumentation&amp;line=229">View Source</a>
+  </span>
+  <a id="SDWORX_Messaging_Api_Controllers_ApiControllerBase_CreatedAtRoute_" data-uid="SDWORX.Messaging.Api.Controllers.ApiControllerBase.CreatedAtRoute*"></a>
+  <h4 id="SDWORX_Messaging_Api_Controllers_ApiControllerBase_CreatedAtRoute__1_System_String_System_Object___0_" data-uid="SDWORX.Messaging.Api.Controllers.ApiControllerBase.CreatedAtRoute``1(System.String,System.Object,``0)">CreatedAtRoute&lt;T&gt;(String, Object, T)</h4>
+  <div class="markdown level1 summary"><p>Response created, 201, with the name of the route and the route as object to query the new object,</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected CreatedAtRouteResult CreatedAtRoute&lt;T&gt;(string routeName, object routeValues, T value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">routeName</span></td>
+        <td><p>The name of the route</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Object</span></td>
+        <td><span class="parametername">routeValues</span></td>
+        <td><p>The object containing all the info to route</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">T</span></td>
+        <td><span class="parametername">value</span></td>
+        <td><p>The created object</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Microsoft.AspNetCore.Mvc.CreatedAtRouteResult</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td><p>Type of created object</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://sdworxcollection1.visualstudio.com/SoSeCommon/_git/MessagingApi?path=SDWORX.Messaging.Api/Controllers/ApiControllerBase.cs&amp;version=GBdocumentation&amp;line=98">View Source</a>
+  </span>
+  <a id="SDWORX_Messaging_Api_Controllers_ApiControllerBase_NotFound_" data-uid="SDWORX.Messaging.Api.Controllers.ApiControllerBase.NotFound*"></a>
+  <h4 id="SDWORX_Messaging_Api_Controllers_ApiControllerBase_NotFound" data-uid="SDWORX.Messaging.Api.Controllers.ApiControllerBase.NotFound">NotFound()</h4>
+  <div class="markdown level1 summary"><p>Response not found, 404</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected NotFoundObjectResult NotFound()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Microsoft.AspNetCore.Mvc.NotFoundObjectResult</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://sdworxcollection1.visualstudio.com/SoSeCommon/_git/MessagingApi?path=SDWORX.Messaging.Api/Controllers/ApiControllerBase.cs&amp;version=GBdocumentation&amp;line=125">View Source</a>
+  </span>
+  <a id="SDWORX_Messaging_Api_Controllers_ApiControllerBase_NotFound_" data-uid="SDWORX.Messaging.Api.Controllers.ApiControllerBase.NotFound*"></a>
+  <h4 id="SDWORX_Messaging_Api_Controllers_ApiControllerBase_NotFound_System_String_" data-uid="SDWORX.Messaging.Api.Controllers.ApiControllerBase.NotFound(System.String)">NotFound(String)</h4>
+  <div class="markdown level1 summary"><p>Response not found, 404, with custom error message</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected NotFoundObjectResult NotFound(string errorMessage)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">errorMessage</span></td>
+        <td><p>The custom error message that will be used in wrapped result</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Microsoft.AspNetCore.Mvc.NotFoundObjectResult</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://sdworxcollection1.visualstudio.com/SoSeCommon/_git/MessagingApi?path=SDWORX.Messaging.Api/Controllers/ApiControllerBase.cs&amp;version=GBdocumentation&amp;line=110">View Source</a>
+  </span>
+  <a id="SDWORX_Messaging_Api_Controllers_ApiControllerBase_NotFound_" data-uid="SDWORX.Messaging.Api.Controllers.ApiControllerBase.NotFound*"></a>
+  <h4 id="SDWORX_Messaging_Api_Controllers_ApiControllerBase_NotFound__1___0_" data-uid="SDWORX.Messaging.Api.Controllers.ApiControllerBase.NotFound``1(``0)">NotFound&lt;T&gt;(T)</h4>
+  <div class="markdown level1 summary"><p>Response not found, 404, with object</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected NotFoundObjectResult NotFound&lt;T&gt;(T value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">T</span></td>
+        <td><span class="parametername">value</span></td>
+        <td><p>The object that will be wrapped</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Microsoft.AspNetCore.Mvc.NotFoundObjectResult</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td><p>The type of object that will be included</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://sdworxcollection1.visualstudio.com/SoSeCommon/_git/MessagingApi?path=SDWORX.Messaging.Api/Controllers/ApiControllerBase.cs&amp;version=GBdocumentation&amp;line=18">View Source</a>
+  </span>
+  <a id="SDWORX_Messaging_Api_Controllers_ApiControllerBase_Ok_" data-uid="SDWORX.Messaging.Api.Controllers.ApiControllerBase.Ok*"></a>
+  <h4 id="SDWORX_Messaging_Api_Controllers_ApiControllerBase_Ok" data-uid="SDWORX.Messaging.Api.Controllers.ApiControllerBase.Ok">Ok()</h4>
+  <div class="markdown level1 summary"><p>Empty response success</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected OkObjectResult Ok()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Microsoft.AspNetCore.Mvc.OkObjectResult</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://sdworxcollection1.visualstudio.com/SoSeCommon/_git/MessagingApi?path=SDWORX.Messaging.Api/Controllers/ApiControllerBase.cs&amp;version=GBdocumentation&amp;line=33">View Source</a>
+  </span>
+  <a id="SDWORX_Messaging_Api_Controllers_ApiControllerBase_Ok_" data-uid="SDWORX.Messaging.Api.Controllers.ApiControllerBase.Ok*"></a>
+  <h4 id="SDWORX_Messaging_Api_Controllers_ApiControllerBase_Ok__1___0_" data-uid="SDWORX.Messaging.Api.Controllers.ApiControllerBase.Ok``1(``0)">Ok&lt;T&gt;(T)</h4>
+  <div class="markdown level1 summary"><p>Response success with object in body</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected OkObjectResult Ok&lt;T&gt;(T value)
+    where T : new()</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">T</span></td>
+        <td><span class="parametername">value</span></td>
+        <td><p>This object will be wrapped, and is put under property &quot;Result&quot;</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Microsoft.AspNetCore.Mvc.OkObjectResult</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td><p>The type of object that will be wrapped</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://sdworxcollection1.visualstudio.com/SoSeCommon/_git/MessagingApi?path=SDWORX.Messaging.Api/Controllers/ApiControllerBase.cs&amp;version=GBdocumentation&amp;line=53">View Source</a>
+  </span>
+  <a id="SDWORX_Messaging_Api_Controllers_ApiControllerBase_Ok_" data-uid="SDWORX.Messaging.Api.Controllers.ApiControllerBase.Ok*"></a>
+  <h4 id="SDWORX_Messaging_Api_Controllers_ApiControllerBase_Ok__1_System_Collections_Generic_ICollection___0__System_Int32_System_Nullable_System_Int32__System_Nullable_System_Int32__System_String_" data-uid="SDWORX.Messaging.Api.Controllers.ApiControllerBase.Ok``1(System.Collections.Generic.ICollection{``0},System.Int32,System.Nullable{System.Int32},System.Nullable{System.Int32},System.String)">Ok&lt;T&gt;(ICollection&lt;T&gt;, Int32, Nullable&lt;Int32&gt;, Nullable&lt;Int32&gt;, String)</h4>
+  <div class="markdown level1 summary"><p>Response success with paged api result</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected OkObjectResult Ok&lt;T&gt;(ICollection&lt;T&gt; value, int total, int? page, int? pageSize, string baseUrl)
+    where T : new()</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.ICollection</span>&lt;T&gt;</td>
+        <td><span class="parametername">value</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">total</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.Int32</span>&gt;</td>
+        <td><span class="parametername">page</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.Int32</span>&gt;</td>
+        <td><span class="parametername">pageSize</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">baseUrl</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Microsoft.AspNetCore.Mvc.OkObjectResult</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://sdworxcollection1.visualstudio.com/SoSeCommon/_git/MessagingApi?path=SDWORX.Messaging.Api/Controllers/ApiControllerBase.cs&amp;version=GBdocumentation&amp;line=319">View Source</a>
+  </span>
+  <a id="SDWORX_Messaging_Api_Controllers_ApiControllerBase_Unauthorized_" data-uid="SDWORX.Messaging.Api.Controllers.ApiControllerBase.Unauthorized*"></a>
+  <h4 id="SDWORX_Messaging_Api_Controllers_ApiControllerBase_Unauthorized" data-uid="SDWORX.Messaging.Api.Controllers.ApiControllerBase.Unauthorized">Unauthorized()</h4>
+  <div class="markdown level1 summary"><p>Response unauthorized, 401</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected UnauthorizedObjectResult Unauthorized()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Microsoft.AspNetCore.Mvc.UnauthorizedObjectResult</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://sdworxcollection1.visualstudio.com/SoSeCommon/_git/MessagingApi?path=SDWORX.Messaging.Api/Controllers/ApiControllerBase.cs&amp;version=GBdocumentation&amp;line=338">View Source</a>
+  </span>
+  <a id="SDWORX_Messaging_Api_Controllers_ApiControllerBase_Unauthorized_" data-uid="SDWORX.Messaging.Api.Controllers.ApiControllerBase.Unauthorized*"></a>
+  <h4 id="SDWORX_Messaging_Api_Controllers_ApiControllerBase_Unauthorized__1___0_" data-uid="SDWORX.Messaging.Api.Controllers.ApiControllerBase.Unauthorized``1(``0)">Unauthorized&lt;T&gt;(T)</h4>
+  <div class="markdown level1 summary"><p>Response unauthorized, 401, with return object</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected UnauthorizedObjectResult Unauthorized&lt;T&gt;(T value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">T</span></td>
+        <td><span class="parametername">value</span></td>
+        <td><p>The return object</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Microsoft.AspNetCore.Mvc.UnauthorizedObjectResult</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td><p>The type of the return object</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://sdworxcollection1.visualstudio.com/SoSeCommon/_git/MessagingApi?path=SDWORX.Messaging.Api/Controllers/ApiControllerBase.cs&amp;version=GBdocumentation&amp;line=12" class="contribution-link">View Source</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

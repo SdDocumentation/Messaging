@@ -1,0 +1,400 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class DiagnosticsController
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class DiagnosticsController
+   ">
+    <meta name="generator" content="docfx 2.58.4.0">
+    
+    <link rel="shortcut icon" href="../assets/favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    <meta property="docfx:rel" content="../">
+    <meta property="docfx:newtab" content="true">
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../assets/sdworx_logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div class="container body-content">
+        
+        <div id="search-results">
+          <div class="search-list">Search Results for <span></span></div>
+          <div class="sr-items">
+            <p><i class="glyphicon glyphicon-refresh index-loading"></i></p>
+          </div>
+          <ul id="pagination" data-first="First" data-prev="Previous" data-next="Next" data-last="Last"></ul>
+        </div>
+      </div>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="SDWORX.Messaging.Api.Controllers.DiagnosticsController">
+  
+  
+  <h1 id="SDWORX_Messaging_Api_Controllers_DiagnosticsController" data-uid="SDWORX.Messaging.Api.Controllers.DiagnosticsController" class="text-break">Class DiagnosticsController
+  </h1>
+  <div class="markdown level0 summary"><p>Diagnostic controller contains methods to test certain processes</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><span class="xref">Microsoft.AspNetCore.Mvc.ControllerBase</span></div>
+    <div class="level2"><span class="xref">DiagnosticsController</span></div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="SDWORX.Messaging.Api.Controllers.html">SDWORX.Messaging.Api.Controllers</a></h6>
+  <h6><strong>Assembly</strong>: SDWORX.Messaging.Api.dll</h6>
+  <h5 id="SDWORX_Messaging_Api_Controllers_DiagnosticsController_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Route(&quot;Diagnostics&quot;)]
+[ApiController]
+public class DiagnosticsController : ControllerBase</code></pre>
+  </div>
+  <h3 id="constructors">Constructors
+  </h3>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://sdworxcollection1.visualstudio.com/SoSeCommon/_git/MessagingApi?path=SDWORX.Messaging.Api/Controllers/DiagnosticsController.cs&amp;version=GBdocumentation&amp;line=41">View Source</a>
+  </span>
+  <a id="SDWORX_Messaging_Api_Controllers_DiagnosticsController__ctor_" data-uid="SDWORX.Messaging.Api.Controllers.DiagnosticsController.#ctor*"></a>
+  <h4 id="SDWORX_Messaging_Api_Controllers_DiagnosticsController__ctor_SDWORX_Messaging_Logging_ILogService_SDWORX_Messaging_Api_Controllers_DiagnosticsController__SDWORX_Messaging_Api_Authentication_IAuthenticationSettings_SDWORX_Messaging_Bus_MessagingOrchestration_IMessagingOrchestrationPushService_SDWORX_Messaging_Infrastructure_SDMailer_ISDMailService_SDWORX_Postprocessing_Oidc_Tools_IOAuthFlowFactory_" data-uid="SDWORX.Messaging.Api.Controllers.DiagnosticsController.#ctor(SDWORX.Messaging.Logging.ILogService{SDWORX.Messaging.Api.Controllers.DiagnosticsController},SDWORX.Messaging.Api.Authentication.IAuthenticationSettings,SDWORX.Messaging.Bus.MessagingOrchestration.IMessagingOrchestrationPushService,SDWORX.Messaging.Infrastructure.SDMailer.ISDMailService,SDWORX.Postprocessing.Oidc.Tools.IOAuthFlowFactory)">DiagnosticsController(ILogService&lt;DiagnosticsController&gt;, IAuthenticationSettings, IMessagingOrchestrationPushService, ISDMailService, IOAuthFlowFactory)</h4>
+  <div class="markdown level1 summary"><p>Constructor for diagnostic controller</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public DiagnosticsController(ILogService&lt;DiagnosticsController&gt; logger, IAuthenticationSettings authenticationSettings, IMessagingOrchestrationPushService pushService, ISDMailService sdMailService, IOAuthFlowFactory oAuthFlowFactory)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">SDWORX.Messaging.Logging.ILogService</span>&lt;<a class="xref" href="SDWORX.Messaging.Api.Controllers.DiagnosticsController.html">DiagnosticsController</a>&gt;</td>
+        <td><span class="parametername">logger</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">SDWORX.Messaging.Api.Authentication.IAuthenticationSettings</span></td>
+        <td><span class="parametername">authenticationSettings</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">SDWORX.Messaging.Bus.MessagingOrchestration.IMessagingOrchestrationPushService</span></td>
+        <td><span class="parametername">pushService</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">SDWORX.Messaging.Infrastructure.SDMailer.ISDMailService</span></td>
+        <td><span class="parametername">sdMailService</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">SDWORX.Postprocessing.Oidc.Tools.IOAuthFlowFactory</span></td>
+        <td><span class="parametername">oAuthFlowFactory</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://sdworxcollection1.visualstudio.com/SoSeCommon/_git/MessagingApi?path=SDWORX.Messaging.Api/Controllers/DiagnosticsController.cs&amp;version=GBdocumentation&amp;line=112">View Source</a>
+  </span>
+  <a id="SDWORX_Messaging_Api_Controllers_DiagnosticsController_GetBadAccessTokenAsync_" data-uid="SDWORX.Messaging.Api.Controllers.DiagnosticsController.GetBadAccessTokenAsync*"></a>
+  <h4 id="SDWORX_Messaging_Api_Controllers_DiagnosticsController_GetBadAccessTokenAsync" data-uid="SDWORX.Messaging.Api.Controllers.DiagnosticsController.GetBadAccessTokenAsync">GetBadAccessTokenAsync()</h4>
+  <div class="markdown level1 summary"><p>Temporary : This method generates an invalid access token, only for testing, must be removed for production</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[AllowAnonymous]
+[HttpPost]
+[Route(&quot;GetBadAccessToken&quot;)]
+public Task&lt;IActionResult&gt; GetBadAccessTokenAsync()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Threading.Tasks.Task</span>&lt;<span class="xref">Microsoft.AspNetCore.Mvc.IActionResult</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://sdworxcollection1.visualstudio.com/SoSeCommon/_git/MessagingApi?path=SDWORX.Messaging.Api/Controllers/DiagnosticsController.cs&amp;version=GBdocumentation&amp;line=100">View Source</a>
+  </span>
+  <a id="SDWORX_Messaging_Api_Controllers_DiagnosticsController_GetGoodAccessTokenAsync_" data-uid="SDWORX.Messaging.Api.Controllers.DiagnosticsController.GetGoodAccessTokenAsync*"></a>
+  <h4 id="SDWORX_Messaging_Api_Controllers_DiagnosticsController_GetGoodAccessTokenAsync" data-uid="SDWORX.Messaging.Api.Controllers.DiagnosticsController.GetGoodAccessTokenAsync">GetGoodAccessTokenAsync()</h4>
+  <div class="markdown level1 summary"><p>Temporary : This method generates a valid access token, only for testing purposes, must be removed for production</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[AllowAnonymous]
+[HttpPost]
+[Route(&quot;GetGoodAccessToken&quot;)]
+public Task&lt;IActionResult&gt; GetGoodAccessTokenAsync()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Threading.Tasks.Task</span>&lt;<span class="xref">Microsoft.AspNetCore.Mvc.IActionResult</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://sdworxcollection1.visualstudio.com/SoSeCommon/_git/MessagingApi?path=SDWORX.Messaging.Api/Controllers/DiagnosticsController.cs&amp;version=GBdocumentation&amp;line=147">View Source</a>
+  </span>
+  <a id="SDWORX_Messaging_Api_Controllers_DiagnosticsController_GetGroupsApiAccessTokenAsync_" data-uid="SDWORX.Messaging.Api.Controllers.DiagnosticsController.GetGroupsApiAccessTokenAsync*"></a>
+  <h4 id="SDWORX_Messaging_Api_Controllers_DiagnosticsController_GetGroupsApiAccessTokenAsync" data-uid="SDWORX.Messaging.Api.Controllers.DiagnosticsController.GetGroupsApiAccessTokenAsync">GetGroupsApiAccessTokenAsync()</h4>
+  <div class="markdown level1 summary"><p>Get an access token that can be used on the swagger page of groups api</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[AllowAnonymous]
+[HttpPost]
+[Route(&quot;GetGroupsApiAccessToken&quot;)]
+public async Task&lt;IActionResult&gt; GetGroupsApiAccessTokenAsync()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Threading.Tasks.Task</span>&lt;<span class="xref">Microsoft.AspNetCore.Mvc.IActionResult</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://sdworxcollection1.visualstudio.com/SoSeCommon/_git/MessagingApi?path=SDWORX.Messaging.Api/Controllers/DiagnosticsController.cs&amp;version=GBdocumentation&amp;line=60">View Source</a>
+  </span>
+  <a id="SDWORX_Messaging_Api_Controllers_DiagnosticsController_IsAlive_" data-uid="SDWORX.Messaging.Api.Controllers.DiagnosticsController.IsAlive*"></a>
+  <h4 id="SDWORX_Messaging_Api_Controllers_DiagnosticsController_IsAlive" data-uid="SDWORX.Messaging.Api.Controllers.DiagnosticsController.IsAlive">IsAlive()</h4>
+  <div class="markdown level1 summary"><p>The method to check if the api is alive</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[HttpGet]
+[Route(&quot;IsAlive&quot;)]
+[AllowAnonymous]
+public IActionResult IsAlive()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Microsoft.AspNetCore.Mvc.IActionResult</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://sdworxcollection1.visualstudio.com/SoSeCommon/_git/MessagingApi?path=SDWORX.Messaging.Api/Controllers/DiagnosticsController.cs&amp;version=GBdocumentation&amp;line=72">View Source</a>
+  </span>
+  <a id="SDWORX_Messaging_Api_Controllers_DiagnosticsController_IsTokenOkAndAnApplication_" data-uid="SDWORX.Messaging.Api.Controllers.DiagnosticsController.IsTokenOkAndAnApplication*"></a>
+  <h4 id="SDWORX_Messaging_Api_Controllers_DiagnosticsController_IsTokenOkAndAnApplication" data-uid="SDWORX.Messaging.Api.Controllers.DiagnosticsController.IsTokenOkAndAnApplication">IsTokenOkAndAnApplication()</h4>
+  <div class="markdown level1 summary"><p>This method will validate if the access token in the header is valid</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[HttpGet]
+[Route(&quot;IsTokenOkAndAnApplication&quot;)]
+[Authorize(&quot;Authenticated&quot;)]
+public IActionResult IsTokenOkAndAnApplication()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Microsoft.AspNetCore.Mvc.IActionResult</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://sdworxcollection1.visualstudio.com/SoSeCommon/_git/MessagingApi?path=SDWORX.Messaging.Api/Controllers/DiagnosticsController.cs&amp;version=GBdocumentation&amp;line=206">View Source</a>
+  </span>
+  <a id="SDWORX_Messaging_Api_Controllers_DiagnosticsController_SendDummyMailAsync_" data-uid="SDWORX.Messaging.Api.Controllers.DiagnosticsController.SendDummyMailAsync*"></a>
+  <h4 id="SDWORX_Messaging_Api_Controllers_DiagnosticsController_SendDummyMailAsync" data-uid="SDWORX.Messaging.Api.Controllers.DiagnosticsController.SendDummyMailAsync">SendDummyMailAsync()</h4>
+  <div class="markdown level1 summary"><p>Test that goes end to end to see if service will in the end send an email</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[HttpPost]
+[Route(&quot;SendDummyMail&quot;)]
+[Authorize(&quot;Authenticated&quot;)]
+public async Task SendDummyMailAsync()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Threading.Tasks.Task</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://sdworxcollection1.visualstudio.com/SoSeCommon/_git/MessagingApi?path=SDWORX.Messaging.Api/Controllers/DiagnosticsController.cs&amp;version=GBdocumentation&amp;line=193">View Source</a>
+  </span>
+  <a id="SDWORX_Messaging_Api_Controllers_DiagnosticsController_SendNServiceBusMessageAsync_" data-uid="SDWORX.Messaging.Api.Controllers.DiagnosticsController.SendNServiceBusMessageAsync*"></a>
+  <h4 id="SDWORX_Messaging_Api_Controllers_DiagnosticsController_SendNServiceBusMessageAsync" data-uid="SDWORX.Messaging.Api.Controllers.DiagnosticsController.SendNServiceBusMessageAsync">SendNServiceBusMessageAsync()</h4>
+  <div class="markdown level1 summary"><p>Test to see if nServiceBus is working</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[HttpPost]
+[Authorize(&quot;Authenticated&quot;)]
+[Route(&quot;SendNServiceBusMessage&quot;)]
+public async Task&lt;IActionResult&gt; SendNServiceBusMessageAsync()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Threading.Tasks.Task</span>&lt;<span class="xref">Microsoft.AspNetCore.Mvc.IActionResult</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://sdworxcollection1.visualstudio.com/SoSeCommon/_git/MessagingApi?path=SDWORX.Messaging.Api/Controllers/DiagnosticsController.cs&amp;version=GBdocumentation&amp;line=22" class="contribution-link">View Source</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

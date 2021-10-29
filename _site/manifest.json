@@ -1,0 +1,655 @@
+{
+  "homepages": [],
+  "source_base_path": "C:/tfs/repos/MessagingApi/SDWORX.Messaging.Documentation",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "Resource",
+      "output": {
+        "resource": {
+          "relative_path": "index.json"
+        }
+      },
+      "is_incremental": false
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "api/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "api/index.html",
+          "hash": "HOccX7m+pkatLgQPMC2Af/0sE/rRIImWwnYkTMLciM8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "assets/favicon.ico",
+      "output": {
+        "resource": {
+          "relative_path": "assets/favicon.ico"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "assets/sdworx_logo.svg",
+      "output": {
+        "resource": {
+          "relative_path": "assets/sdworx_logo.svg"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "assets/sketch.png",
+      "output": {
+        "resource": {
+          "relative_path": "assets/sketch.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html",
+          "hash": "phgyGTkPl8ZbsTajgJbOTog1CibDotCp2BEebL1MFwY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/SDWORX.Messaging.Api.Controllers.Admin.MessageController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SDWORX.Messaging.Api.Controllers.Admin.MessageController.html",
+          "hash": "4Am7FkoF9H01frc1jwDvyN3YuJCvbFAh/Qx0KaLpCZs="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/SDWORX.Messaging.Api.Controllers.Admin.PublicationController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SDWORX.Messaging.Api.Controllers.Admin.PublicationController.html",
+          "hash": "ohmkgzbC4Q7ZXHQGnsFwK24Z+laTbdj7N5rM/4ZFCPs="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/SDWORX.Messaging.Api.Controllers.Admin.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SDWORX.Messaging.Api.Controllers.Admin.html",
+          "hash": "RKrfSO9hHMOtFDELQS5mS/goyXMjNSr1g68D8Jz/0Zs="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/SDWORX.Messaging.Api.Controllers.ApiControllerBase.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SDWORX.Messaging.Api.Controllers.ApiControllerBase.html",
+          "hash": "hE2lwjwyovq+rIrxLQIlwIEz1D47qyPz6D799IUEYhs="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/SDWORX.Messaging.Api.Controllers.DiagnosticsController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SDWORX.Messaging.Api.Controllers.DiagnosticsController.html",
+          "hash": "8ujGRA5ZY27Pyx7GqLtNfIJyiZwYe6qRmpG1NEz1KSs="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/SDWORX.Messaging.Api.Controllers.HealthsController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SDWORX.Messaging.Api.Controllers.HealthsController.html",
+          "hash": "82RCm5xsVsGa0JXdwZYxbEVwSzaWOG8ODkZClInVQQA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/SDWORX.Messaging.Api.Controllers.Me.DeviceController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SDWORX.Messaging.Api.Controllers.Me.DeviceController.html",
+          "hash": "0nKvSDBVU8fi5r1Rf2oR8b9XRV6s+thNbrTnv3GBESA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/SDWORX.Messaging.Api.Controllers.Me.NewsfeedItemController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SDWORX.Messaging.Api.Controllers.Me.NewsfeedItemController.html",
+          "hash": "2AMO/3V8vcHJSy3KngUOyE1pOxmV7n7sfIrJ2Uj2PdQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/SDWORX.Messaging.Api.Controllers.Me.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SDWORX.Messaging.Api.Controllers.Me.html",
+          "hash": "XkWAijK08k207GKQdmMfjkKKK/LxHnctBod+OI5+1GY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/SDWORX.Messaging.Api.Controllers.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SDWORX.Messaging.Api.Controllers.html",
+          "hash": "PGG+mWFM3y0H8lKgnPWrmDa6NRDxxRKJ5W+sh4JLVVk="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/SDWORX.Messaging.Contracts.Devices.DeviceInstallation.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SDWORX.Messaging.Contracts.Devices.DeviceInstallation.html",
+          "hash": "rA0LO7jxz7bBhFEE6j7KRgepIMgRnt+lBD8g6pVCbLw="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/SDWORX.Messaging.Contracts.Devices.DevicePlatform.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SDWORX.Messaging.Contracts.Devices.DevicePlatform.html",
+          "hash": "NC0diMKcxz1D+SzCu89+vZpuWbA8z4NNNppEfrIpuf8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/SDWORX.Messaging.Contracts.Devices.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SDWORX.Messaging.Contracts.Devices.html",
+          "hash": "zWIMjcIYRVXIwhdaXDHNcG5Pl/l+8puv1vqjDA+mXmg="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/SDWORX.Messaging.Contracts.Messages.Content.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SDWORX.Messaging.Contracts.Messages.Content.html",
+          "hash": "eF6wO7u/Ix6TJdAwVuMa1yOfdnCW9cPF9QyfkxbNLv0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/SDWORX.Messaging.Contracts.Messages.CreateMessage.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SDWORX.Messaging.Contracts.Messages.CreateMessage.html",
+          "hash": "2S+qoXuuJmrxKfTzBRQ6T0EPKpw3orpyBOQOhli/h9Q="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/SDWORX.Messaging.Contracts.Messages.Message.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SDWORX.Messaging.Contracts.Messages.Message.html",
+          "hash": "qbwicNSi0jyXOzdrihIMaz5uYTvnFGWgf9i9ob6CPEQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/SDWORX.Messaging.Contracts.Messages.MessageAction.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SDWORX.Messaging.Contracts.Messages.MessageAction.html",
+          "hash": "JyCGwQfHSZt8avWKkg+lrwVu7b+inAClLPKLaew42Mg="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/SDWORX.Messaging.Contracts.Messages.MessageActionVerb.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SDWORX.Messaging.Contracts.Messages.MessageActionVerb.html",
+          "hash": "4CFCDxPjEHRbXLMslJuYCY/Vu2M+bvGpoArpyvOh4CE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/SDWORX.Messaging.Contracts.Messages.MessageBody.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SDWORX.Messaging.Contracts.Messages.MessageBody.html",
+          "hash": "VQCtfSnVlnXy60zrLZ2bHyl4UjxaTe9fucctrq5u70M="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/SDWORX.Messaging.Contracts.Messages.MessageTranslation.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SDWORX.Messaging.Contracts.Messages.MessageTranslation.html",
+          "hash": "PG6sekiesySnKYP3JEGgDWfNU+Zgqok6KFUbywFK1Pw="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/SDWORX.Messaging.Contracts.Messages.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SDWORX.Messaging.Contracts.Messages.html",
+          "hash": "glBf/jUrmEb/+IKL5VBOP7rbQFXU7hXh/Q9FOIifEaA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/SDWORX.Messaging.Contracts.NewsfeedItems.NewsfeedItem.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SDWORX.Messaging.Contracts.NewsfeedItems.NewsfeedItem.html",
+          "hash": "ctE/fvoCvbsdnQ7cv4AT5ZfgEPhTioP6+ya1RB7aMFM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/SDWORX.Messaging.Contracts.NewsfeedItems.NewsfeedItemDetail.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SDWORX.Messaging.Contracts.NewsfeedItems.NewsfeedItemDetail.html",
+          "hash": "Vc/Y7IaIGIEJFI6E1cy9yjdHvBtlHSA+Okc+mV56wd8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/SDWORX.Messaging.Contracts.NewsfeedItems.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SDWORX.Messaging.Contracts.NewsfeedItems.html",
+          "hash": "IO0yuhuNgqWZPikLYIceJsHzNFZcD0TVzWBzf2TkVck="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/SDWORX.Messaging.Contracts.Publications.AddresseeIdentifier.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SDWORX.Messaging.Contracts.Publications.AddresseeIdentifier.html",
+          "hash": "ZWi8EZ67ispld7/zEFghQp1Si7ITAytNI9L2udzLCQg="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/SDWORX.Messaging.Contracts.Publications.ChannelPreference.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SDWORX.Messaging.Contracts.Publications.ChannelPreference.html",
+          "hash": "gRmL/F8TNIpLqD9kLfkPgL9XDluc/whbkd7VHbnd+74="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/SDWORX.Messaging.Contracts.Publications.CompanyIdentifier.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SDWORX.Messaging.Contracts.Publications.CompanyIdentifier.html",
+          "hash": "U6qDM23v01zUPKLnqQS52BIzp8ZqPmCxok8wqgjFzDc="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/SDWORX.Messaging.Contracts.Publications.MessagePublishedResult.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SDWORX.Messaging.Contracts.Publications.MessagePublishedResult.html",
+          "hash": "BeeCIkhW616Bz/5yf2r2NVOc9GbdXMKKIrFDq1xC/8M="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/SDWORX.Messaging.Contracts.Publications.Priority.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SDWORX.Messaging.Contracts.Publications.Priority.html",
+          "hash": "EhEzF6NoXxUWDe3QmKd1ysrm7ntifxbk2r2Ac4p5smw="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/SDWORX.Messaging.Contracts.Publications.Publication.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SDWORX.Messaging.Contracts.Publications.Publication.html",
+          "hash": "MLKRQHQa1+9VPxCdzImsuXS3B9PZ7wyZrd9DM/cn4Sw="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/SDWORX.Messaging.Contracts.Publications.PublicationAddressee.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SDWORX.Messaging.Contracts.Publications.PublicationAddressee.html",
+          "hash": "Fz6YfDxXsizo0TPLYb4zdA99kxbD7oOWgUJI8RH9PSs="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/SDWORX.Messaging.Contracts.Publications.PublicationDetail.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SDWORX.Messaging.Contracts.Publications.PublicationDetail.html",
+          "hash": "UFftM35xJ3RneoLd7PlL4N9Iys4YGlSIAu54wLclLcw="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/SDWORX.Messaging.Contracts.Publications.PublicationForTemplate.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SDWORX.Messaging.Contracts.Publications.PublicationForTemplate.html",
+          "hash": "m0uAE+Ls5XsqOuQJ9AUaov8Uxxx3/Mainh6e10S1Xbk="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/SDWORX.Messaging.Contracts.Publications.TranslatedArguments.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SDWORX.Messaging.Contracts.Publications.TranslatedArguments.html",
+          "hash": "gwLSQquTyRzWKgSoDn4Os+mY31MivA2ZQVGCQUa6ECY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/SDWORX.Messaging.Contracts.Publications.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SDWORX.Messaging.Contracts.Publications.html",
+          "hash": "TGcz0ndqXGLMXO3evq/XJ+l2cWU1oaX68rZr8BxKXXw="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "obj/api/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/toc.html",
+          "hash": "ypWBDb90G41OZLjgTO8kcGuu4r+oYOUbzcAuIzoYBEk="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "toc.html",
+          "hash": "Slm4YrAx6KzZzqeZcvUrLScEQUOe4UkEbIG1m5pErvQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "topics/authentication.md",
+      "output": {
+        ".html": {
+          "relative_path": "topics/authentication.html",
+          "hash": "jg82H1uc67EJEb6xQvDlRzoavn4nGuospXAyf18tuDk="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "topics/domains/adminPublications.md",
+      "output": {
+        ".html": {
+          "relative_path": "topics/domains/adminPublications.html",
+          "hash": "KjEtFi9SI8VAIxJmFjaqO5tAmB6/sgoWZjXU4awyp/c="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "topics/domains/meDevices.md",
+      "output": {
+        ".html": {
+          "relative_path": "topics/domains/meDevices.html",
+          "hash": "TmslupXYTQUTptmf2j6zMhcq/eMpMMVkrFSGYsp+Qxg="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "topics/domains/meNewsfeeditems.md",
+      "output": {
+        ".html": {
+          "relative_path": "topics/domains/meNewsfeeditems.html",
+          "hash": "aT9uxoPVvhYziu9rd7WDg5CFvpmomsauq7lcGtCkdKw="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "topics/responses.md",
+      "output": {
+        ".html": {
+          "relative_path": "topics/responses.html",
+          "hash": "WC85Ab2dMzznKiVEQfwJhxdnYijoFxuFR8ASQgsAVyo="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "topics/swagger.md",
+      "output": {
+        ".html": {
+          "relative_path": "topics/swagger.html",
+          "hash": "rYGsMzHThiVfSBxdu4wO5CB/tWmiqIpVEvr92Uz9NIc="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "topics/toc.md",
+      "output": {
+        ".html": {
+          "relative_path": "topics/toc.html",
+          "hash": "RXijlsndFAoToVRxQGaZa0b3GIapopSlpx+l7CP1+P0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    }
+  ],
+  "incremental_info": [
+    {
+      "status": {
+        "can_incremental": true,
+        "incrementalPhase": "build",
+        "total_file_count": 0,
+        "skipped_file_count": 0
+      },
+      "processors": {
+        "ConceptualDocumentProcessor": {
+          "can_incremental": true,
+          "incrementalPhase": "build",
+          "total_file_count": 8,
+          "skipped_file_count": 4
+        },
+        "ManagedReferenceDocumentProcessor": {
+          "can_incremental": true,
+          "incrementalPhase": "build",
+          "total_file_count": 35,
+          "skipped_file_count": 33
+        },
+        "ResourceDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor ResourceDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build",
+          "total_file_count": 0,
+          "skipped_file_count": 0
+        },
+        "TocDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build",
+          "total_file_count": 0,
+          "skipped_file_count": 0
+        }
+      }
+    },
+    {
+      "status": {
+        "can_incremental": false,
+        "details": "Cannot support incremental post processing, the reason is: should not trace intermediate info.",
+        "incrementalPhase": "postProcessing",
+        "total_file_count": 0,
+        "skipped_file_count": 0
+      },
+      "processors": {}
+    }
+  ],
+  "version_info": {},
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}
